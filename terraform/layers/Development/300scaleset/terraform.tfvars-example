@@ -1,0 +1,36 @@
+###############################################################################
+# Environment
+###############################################################################
+location    = "Southeast Asia"
+environment = "Development"
+
+###############################################################################
+# Subnet
+###############################################################################
+
+###############################################################################
+# Scale Set 01
+###############################################################################
+scaleset01_subnet_id                            = ""
+rsg_01                                          = "SEA-RSG-SCALESET01-TEST"
+vm_os_id_01                                     = ""
+application_gateway_backend_address_pool_ids_01 = ""
+#load_balancer_backend_address_pool_ids_01      = ""
+
+###############################################################################
+# Scale Set 02
+###############################################################################
+scaleset02_subnet_id                            = ""
+rsg_02                                          = "SEA-RSG-SCALESET02-TEST"
+vm_os_id_02                                     = ""
+application_gateway_backend_address_pool_ids_02 = ""
+#load_balancer_backend_address_pool_ids_02      = ""
+
+###############################################################################
+# Scale Set 03
+###############################################################################
+scaleset03_subnet_id                             = ""
+rsg_03                                           = "HOYTS-SEA-RSG-SCALESET03-TEST"
+vm_os_id_03                                      = ""
+#load_balancer_backend_address_pool_ids_03       = ""
+application_gateway_backend_address_pool_ids_03  = ""
