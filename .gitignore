@@ -13,4 +13,5 @@ Nodes
 
 # Misc
 disabled
-*secret*
+*secret*.tfvars
+
